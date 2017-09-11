@@ -101,7 +101,7 @@ class RollupTask extends Elixir.Task {
                 cache: cache,
                 sourceMap: true,
                 format: 'iife',
-                moduleName: 'LaravelElixirBundle',
+                name: 'LaravelElixirBundle',
                 plugins: plugins
             }, this.rollupConfig, this.options)
         )
